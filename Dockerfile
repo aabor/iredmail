@@ -23,5 +23,4 @@ RUN ln -s /iredmail/dkim /var/lib/dkim
 COPY file_env.sh /
 COPY start.sh /
 
-ENTRYPOINT [ "" ]
 CMD ["/start.sh"]

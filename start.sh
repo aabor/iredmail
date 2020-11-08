@@ -2,4 +2,4 @@
 
 /file_env.sh
 
-supervisord /entrypoint.sh
+/entrypoint.sh supervisord
