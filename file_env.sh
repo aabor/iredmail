@@ -23,5 +23,3 @@ file_env() {
 
 file_env "MYSQL_ROOT_PASSWORD"
 file_env "POSTMASTER_PASSWORD"
-
-supervisord /entrypoint.sh
