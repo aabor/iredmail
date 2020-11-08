@@ -19,3 +19,5 @@ RUN ln -s /iredmail/mysql /var/lib/mysql
 RUN ln -s /iredmail/vmail /var/vmail
 RUN ln -s /iredmail/clamav /var/lib/clamav
 RUN ln -s /iredmail/dkim /var/lib/dkim
+
+COPY file_env.sh /
