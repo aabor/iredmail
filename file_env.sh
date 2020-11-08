@@ -20,3 +20,6 @@ file_env() {
    export "$var"="$val"
    unset "$fileVar"
 }
+
+file_env "MYSQL_ROOT_PASSWORD"
+file_env "POSTMASTER_PASSWORD"
